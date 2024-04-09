@@ -18,10 +18,16 @@ public class Triangulo extends FiguraGeometrica {
         this.altura = altura;
     }
 
-    
+
     public Triangulo(double base, double altura) {
         this.base = base;
+        assert base > 0 : "La base no puede ser negativa";
         this.altura = altura;
+        assert altura > 0 : "La altura no puede ser negativa";
+    }
+
+    public double calcularArea () {
+        return (base * altura)/2;
     }
 
     

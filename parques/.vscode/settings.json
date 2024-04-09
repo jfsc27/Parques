@@ -2,5 +2,6 @@
     "cSpell.ignoreWords": [
         "CALARCA",
         "descripcion"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
