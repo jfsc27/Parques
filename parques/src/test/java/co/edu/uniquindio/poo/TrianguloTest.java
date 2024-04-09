@@ -21,7 +21,7 @@ public class TrianguloTest {
     @Test
     public void calcularAreaBaseNegativa () {
         LOG.info("Iniciado test para calcular el area de un triangulo con la base negativa");
-        assertThrows(Throwable.class, () -> new Triangulo(-10, -20));
+        assertThrows(Throwable.class, () -> new Triangulo(-10, 20));
         LOG.info("Finalizando test para calcular el area de un triangulo con la base negativa");
     }
 }
