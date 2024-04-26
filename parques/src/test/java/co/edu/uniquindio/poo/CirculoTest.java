@@ -14,7 +14,7 @@ public class CirculoTest {
     public void calcularAreaPositiva () {
         LOG.info("Iniciado test para calcular area positiva");
         Circulo circulo = new Circulo(10);
-        double areaCalculada =circulo.calcularAreaCirculo();
+        double areaCalculada =circulo.calcularArea();
         assertEquals(314.159, areaCalculada, 0.01);
         LOG.info("Finalizando test para calcular area positiva");
     }

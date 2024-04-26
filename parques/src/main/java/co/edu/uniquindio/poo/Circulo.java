@@ -15,8 +15,9 @@ public class Circulo extends FiguraGeometrica {
         this.radio = radio;
         assert radio >0 : "Error, no se puede crear un radio negativo";
     }
-    
-    public double calcularAreaCirculo () {
-        return (Math.PI * radio * radio);
+
+    @Override
+    public double calcularArea() {
+        return (Math.PI *radio *radio);
     }
 }

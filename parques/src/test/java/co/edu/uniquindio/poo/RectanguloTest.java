@@ -14,7 +14,7 @@ public class RectanguloTest {
     public void calcularArea() {
         LOG.info("Iniciado test para calcular area de un rectangulo");
         Rectangulo rectangulo = new Rectangulo(10, 20);
-        double areaCalculada = rectangulo.calcularAreaRectangulo();
+        double areaCalculada = rectangulo.calcularArea();
         assertEquals(200.0, areaCalculada);
         LOG.info("Finalizando test para calcular el area de un rectangulo");
     }

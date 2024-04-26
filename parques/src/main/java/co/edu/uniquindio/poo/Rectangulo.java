@@ -25,8 +25,10 @@ public class Rectangulo extends FiguraGeometrica {
         this.largo = largo;
         assert largo >0 : "El largo no puede ser negativo";
     }
-
-    public double calcularAreaRectangulo () {
+    @Override
+    public double calcularArea() {
         return (ancho * largo);
     }
+
+
 }

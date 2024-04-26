@@ -7,4 +7,9 @@ public enum Municipio {
     private Municipio (double sobrecosto){
         this.sobrecosto = sobrecosto;
     }
+    public double getSobrecosto() {
+        return sobrecosto;
+    }
+
+    
 }

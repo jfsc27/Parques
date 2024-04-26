@@ -40,8 +40,11 @@ public class ParqueInfantil {
         this.municipio = municipio;
     }
 
-    public void agregarZona (Zona zona){
-        
+    public double calcularValor() {
+        return listaZonas
+                .stream()
+                .mapToDouble(n -> n.calcularValor()).sum() + municipio.getSobrecosto();
     }
+
 
 }
